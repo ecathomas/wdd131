@@ -1,5 +1,7 @@
 body {
     display: grid;
+    display: flex;
+    margin: 0;
     grid-template: auto auto 1rf auto / 1fr auto;
 }
 
