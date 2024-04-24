@@ -10,7 +10,7 @@ body {
     color: white;
     grid-column: 1/-1;
 }
-nav {
+.nav {
     display: inline;
     background: black;
     color: white;
