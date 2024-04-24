@@ -1,7 +1,6 @@
 body {
     display: grid;
-    display: flex;
-    grid-template: auto auto 1rf auto / auto auto;
+    grid-template: auto auto 1rf auto / 1fr auto;
 }
 
 .header {
