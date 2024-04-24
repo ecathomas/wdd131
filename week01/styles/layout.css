@@ -5,12 +5,16 @@ body {
 }
 
 header {
+    padding: 2rf;
     background: rgb(55, 54, 54);
+    color: white;
     grid-column: 1/4;
 
 }
-.nav-bar {
+nav {
+    padding: 1fr;
     background: black;
+    color: white;
     grid-column: 1/4;
 }
 
@@ -27,5 +31,6 @@ main {
 footer {
     text-align: center;
     background: rgb(55, 54, 54);
+    color: white;
     grid-column: 1/4;
 }
