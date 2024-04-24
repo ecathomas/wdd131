@@ -12,9 +12,7 @@ body {
 
 }
 nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: inline;
     background: black;
     color: white;
     grid-column: 1/4;
@@ -31,7 +29,6 @@ nav {
 }
 
 footer {
-    padding: 4fr;
     text-align: center;
     background: rgb(55, 54, 54);
     color: white;
