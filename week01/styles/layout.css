@@ -11,7 +11,7 @@ body {
     grid-column: 1/4;
 
 }
-.nav-bar {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
