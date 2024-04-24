@@ -8,14 +8,13 @@ body {
 .header {
     background: rgb(55, 54, 54);
     color: white;
-    grid-column: 1/4;
-
+    grid-column: 1/-1;
 }
 nav {
     display: inline;
     background: black;
     color: white;
-    grid-column: 1/4;
+    grid-column: 1/-1;
 }
 
 .main {
@@ -32,5 +31,5 @@ footer {
     text-align: center;
     background: rgb(55, 54, 54);
     color: white;
-    grid-column: 1/4;
+    grid-column: 1/-1;
 }
