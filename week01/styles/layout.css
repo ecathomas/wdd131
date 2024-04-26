@@ -1,37 +1,53 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,.4fr);
+}
+header {
+    grid-column: 1 / 5;
+    grid-row: 1;
+}
 .header {
     background: rgb(55, 54, 54);
+    display: flex;
     color: white;
-    padding: 30px;
+    padding: 2rem;
     margin: 0;
+    font-size: large;
 }
-.nav-bar {
+nav ul {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     background: black;
     color: white;
     margin: 0;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
 }
-
-a {
+nav a {
     color: white;
-    padding: 15px;
+    display: grid;
+    padding: 1rem;
 }
-
-.main {
+.middle {
     background: lightgrey;
-    padding: 100px;
-    margin: 0;
+    grid-column: 1/4;
+    grid-row: 2/7;
+    padding: 1rem;
 }
-
-.right-side {
+.right {
     background: white;
-    padding: 50px;
-    margin: 0;
+    grid-column: 4/5;
+    grid-row: 2/7;
+    padding: 1rem;
 }
-
 footer {
     text-align: center;
     background: rgb(55, 54, 54);
     color: white;
-    padding: 40px;
+    margin: 0;
+    grid-column: 1/5;
+    grid-row: 7/10;
+    padding: 1rem;
 }
