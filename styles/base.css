@@ -31,7 +31,7 @@ ul li a {
     display: flex;
     padding: 15px;
     text-decoration: none;
-    color:rgb(123, 123, 65);
+    color:#344e41;
     font-weight: 600;
     margin: 0 10px;
     position: relative;
@@ -43,7 +43,7 @@ ul li a:after {
   }
 
 ul li a:hover {
-    color:rgb(58, 75, 29);
+    color:#90a955;
   }
 
   nav.stroke ul li a,
@@ -91,7 +91,6 @@ img {
   box-shadow:
 	  inset #283618 0 0 0 5px;
     line-height: 3rem;
-
 }
 
 footer {
