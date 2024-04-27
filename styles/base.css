@@ -73,6 +73,7 @@ ul li a:hover {
     inset #ecf39e 0 0 0 21px,
     inset #dad7cd 0 0 0 22px;
   text-shadow: 3px 3px 1px rgba(123, 123, 65, 0.159);
+  max-width: 100%;
 }
 
 img {
