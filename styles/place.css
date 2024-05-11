@@ -1,6 +1,8 @@
-body {
-	font-family: Roboto, helvetica, sans-serif;
-    font-size: 1.5em;
+:root {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
 }
 
 header {
@@ -31,6 +33,7 @@ section {
     margin: 1em;
     background-color: rgba(210, 210, 207, 0.31);
     box-shadow: 1px 1px 2px #348CC1;
+    font-weight: 300;
 }
 
 h2{

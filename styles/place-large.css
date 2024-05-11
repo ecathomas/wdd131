@@ -1,19 +1,37 @@
-@media screen and (min-width: 1000) {
-    img {
-        width: 100%
+@media screen and (min-width: 1000px) {
+
+    body {
+        position: relative;
     }
+
     .data {
         position: absolute;
-        top: 8px;
+        top: 200px;
         left: 16px;
     }
 
     .weather {
         position: absolute;
-        bottom: 8px;
+        bottom: 200px;
         right: 16px;
     }
 
+    .weather h2::after {
+        content: "🌤️";
+    }
+
+    section {
+        background-color: rgba(243, 246, 247, 0.617);
+        font-size: 1.25em;
+        display: flex;
+        padding: 1em;
+    }
+
+    h2 {
+        background-color: #f2594ea5;
+        height: 70px;
+        padding: .5em;
+    }
     .icon {
         display: none;
     }
