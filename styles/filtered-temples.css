@@ -70,7 +70,7 @@ main {
     max-width: 960px;
 }
 
-figure {
+section {
     margin: 1rem;
     display: flex;
     flex-direction: column;
