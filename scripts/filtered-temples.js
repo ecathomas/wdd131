@@ -2,7 +2,7 @@ let year = new Date().getFullYear();
 var lastModified = document.lastModified;
 let footer = `&copy; ${year}  Evelyn Abplanalp Thomas  MO, USA \n 
 Last Modified: ${lastModified}`;
-document.getElementsByTagName('p1')[0].innerHTML = footer;
+document.getElementsByTagName('p')[0].innerHTML = footer;
 
 const mainnav = document.querySelector('.navigation')
 const hambutton = document.querySelector('#menu');
