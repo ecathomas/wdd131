@@ -56,7 +56,7 @@ h1 {
     padding: 1em;
 }
 
-main h2{
+h2 {
     grid-column: 1/-1;
     text-align: center;
     margin: 1rem;
@@ -64,10 +64,9 @@ main h2{
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
     margin: auto;
     background-color: #f5e5e6;
-    max-width: 960px;
 }
 
 section {
@@ -75,6 +74,23 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
+    border: solid #fff;
+    background: #ffffff5f;
+    box-shadow: 5px 3px 5px rgb(140, 138, 138);
+}
+
+div {
+    grid-column: auto;
+}
+
+img, h3 { 
+    grid-column: auto;
+}
+
+img {
+    padding: 1em;
+    width: 100%;
 }
 
 footer {

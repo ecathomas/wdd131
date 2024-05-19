@@ -1,12 +1,12 @@
 @media screen and (min-width: 640px) {
-    main {
+    .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 940px) {
-    main {
+    .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -29,7 +29,7 @@
 
     a {
         padding: 2rem;
-        padding-bottom: 3 rem;
+        padding-bottom: 3rem;
         font-size: 1.2em;
     }
 }
