@@ -97,9 +97,42 @@ const temples = [
 
 createTempleCard(temples);
 
-function createTempleCard(temples) {
+const home = document.querySelector("#home");
+const oldTemp = document.querySelector("#old");
+const newTemp = document.querySelector("#new");
+const largeTemp = document.querySelector("#large");
+const smallTemp = document.querySelector("#small");
+
+function dedicatedYear(dateString) {
+  const dateParts = dateString.split(", ");
+  return parseInt(dateParts[0], 10);
+}
+
+home.addEventListener("click", () => {
+    createTempleCard(temples);
+})
+
+oldTemp.addEventListener("click", () => {
+  const filteredTemples = temples.filter(temple => dedicatedYear(temple.dedicated) < 1900);
+  createTempleCard(filteredTemples);
+})
+
+newTemp.addEventListener("click", () => {
+  const filteredTemples = temples.filter(temple => dedicatedYear(temple.dedicated) > 2000);
+  createTempleCard(filteredTemples);
+})
+
+largeTemp.addEventListener("click", () => {
+  createTempleCard(temples.filter(temple => temple.area > 90000));
+})
+
+smallTemp.addEventListener("click", () => {
+  createTempleCard(temples.filter(temple => temple.area < 10000));
+})
+
+function createTempleCard(filteredTemples) {
   document.querySelector(".grid").innerHTML = "";
-  temples.forEach(temple => {
+  filteredTemples.forEach(temple => {
     let card = document.createElement("section");
     let name = document.createElement("h3");
     let location = document.createElement("p");
