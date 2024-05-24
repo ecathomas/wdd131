@@ -19,6 +19,7 @@ nav {
     list-style: none;
     background-color: #A44A3F;
     padding: 1em;
+    width: 100%;
 }
 
 a:link {
