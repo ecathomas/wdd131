@@ -5,6 +5,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 body {
     font-size: 16px;
     font-family: Verdana, sans-serif;
+    background-color: #eaafa0;
 }
 
 header {
@@ -12,6 +13,7 @@ header {
     background-color: #264653;
     color: white;
     text-align: center;
+    box-shadow: 1px 1px 5px #999;
 }
 
 main {
@@ -24,6 +26,8 @@ main {
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: .5rem 2%;
+    background-color: white;
+    box-shadow: 1px 1px 5px #999;
 }
 
 .pr1 label {
@@ -71,14 +75,14 @@ main {
 
 .pr1 input[type="submit"]{
     border: none;
-    background-image: linear-gradient(#ec9a86, #E76F51);
+    background-image: linear-gradient(#d26246, #d24927);
     color: #fff;
     border-radius: 6px;
     padding: .8rem;
     width: 96%;
     max-width: 400px;
     margin: -1rem 2% 2rem 2%;
-    box-shadow: 1px 1px 4px #999;
+    box-shadow: 1px 1px 5px #999;
 }
 
 footer {
@@ -87,4 +91,5 @@ footer {
     color: white;
     text-align: center;
     font-size: small;
+    box-shadow: 1px 1px 5px #999;
 }
