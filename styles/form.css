@@ -89,5 +89,28 @@ footer {
     text-align: center;
     font-size: small;
     box-shadow: 1px 1px 5px #999;
+}
 
+.reviewh1{ 
+    padding: .5rem 2%;
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 5px #999;
+}
+
+h2 {
+    text-align: center;   
+    margin: 3em; 
+}
+
+p{
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    background-color: #eee;
+    appearance: none;
+    text-align: center;    
 }
