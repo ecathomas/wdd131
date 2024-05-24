@@ -51,8 +51,8 @@ main {
 .pr1 input[type="text"],
 .pr1 input[type="date"],
 .pr1 select ,
-.pr1 input[type="number"]
-.pr1 input[type="textarea"]{
+.pr1 input[type="number"],
+.pr1 textarea {
     display: block;
     border: solid 1px #999;
     border-radius: 6px;
@@ -68,10 +68,6 @@ main {
 .pr1 input[type="radio"],
 .pr1 input[type="checkbox"]{
     margin-right: 6px;
-}
-
-.pr1 input[type="textarea"] {
-    padding: 4rem;
 }
 
 .pr1 input[type="submit"]{
@@ -93,4 +89,5 @@ footer {
     text-align: center;
     font-size: small;
     box-shadow: 1px 1px 5px #999;
+
 }
