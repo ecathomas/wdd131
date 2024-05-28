@@ -1,0 +1,123 @@
+header {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #D4E09B;
+}
+.logo {
+    width:100px;
+    height: 100px;
+}
+
+#menu {
+    display: block;
+    list-style: none;
+    background-color: #A44A3F;
+    padding: 1em;
+}
+
+#menu::before {
+    content: "≡";
+    font-size: 2em;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+}
+
+.navigation li {
+    display: none;
+    padding: 1em;
+}
+
+a:visited {
+    color: black;
+  }
+
+ul li a:hover {
+    background-color: #f19c79;
+    color: white;
+    padding: 2rem;
+}
+
+ul li a,
+ul li a:after {
+    transition: all .5s;
+    color: black;
+}
+
+.show li {
+    display: block;
+    text-align: center;
+}
+
+#menu.show::before {
+    content: "⊗";
+    font-size: 2em;
+}
+
+.sort::before {
+    content: "";
+    font-size: 2em;
+}
+
+.sort li {
+    display: none;
+    padding: 1em;
+}
+
+main, footer {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    grid-column: 1/-1;
+    text-align: center;
+    margin: 1rem;
+}
+
+main {
+    margin: 2em;
+    background-color: #F6F4D2;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: auto;
+}
+
+section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: solid white;
+    background: #ffffff60;
+    box-shadow: 3px 1px 3px rgb(140, 138, 138);
+}
+
+img, h2 { 
+    grid-column: auto;
+}
+
+img {
+    padding: 1em;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: #f19c79;
+    padding: .75em;
+}
+
+footer {
+    text-align: center;
+    padding: .5em;
+    background-color: #D4E09B;
+}
