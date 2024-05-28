@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-family: "La Belle Aurore", cursive;
     font-weight: 400;
@@ -6,7 +11,7 @@ header {
     background-color: #D4E09B;
 }
 .logo {
-    width:100px;
+    width: 100px;
     height: 100px;
 }
 
@@ -22,17 +27,21 @@ header {
     font-size: 2em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navigation {
     list-style: none;
-    text-align: center;
 }
 
 .navigation li {
     display: none;
     padding: 1em;
+    text-align: center;
 }
 
-a:visited {
+a, a:visited {
     color: black;
   }
 
@@ -95,10 +104,21 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 2em;
     border: solid white;
     background: #ffffff60;
     box-shadow: 3px 1px 3px rgb(140, 138, 138);
+}
+
+section:hover {
+    background-color: #f19c79;
+    color: white;
+}
+
+section,
+section:after {
+    transition: all .3s;
+    color: black;
 }
 
 img, h2 { 
@@ -106,18 +126,21 @@ img, h2 {
 }
 
 img {
-    padding: 1em;
+    margin: 0;
     width: 100%;
+    height: auto;
+    padding-bottom: .5em;
 }
 
 h2 {
     text-align: center;
     background-color: #f19c79;
     padding: .75em;
+    font-size: medium;
 }
 
 footer {
     text-align: center;
-    padding: .5em;
+    padding: 1.5em;
     background-color: #D4E09B;
 }

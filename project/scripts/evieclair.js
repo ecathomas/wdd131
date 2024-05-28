@@ -158,14 +158,20 @@ function createAlbumCard(albums) {
         let card = document.createElement("section");
         let name = document.createElement("h2");
         let img = document.createElement("img");
+        let link = document.createElement("a");
+
         name.textContent = album.albumName;
-        card.setAttribute("href", `${album.listen}`);
         img.setAttribute("src", album.imageUrl);
         img.setAttribute("alt", `${album.albumName}`);
         img.setAttribute("loading", "lazy");
+        img.setAttribute("width", "100px");
+
+        link.setAttribute("href", album.listen); 
+        link.setAttribute("target", "_blank");
         
-        card.appendChild(img);
-        card.appendChild(name);
+        link.appendChild(img);
+        link.appendChild(name);
+        card.appendChild(link);
 
         document.querySelector(".grid").appendChild(card);
 });
