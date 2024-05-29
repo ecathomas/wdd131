@@ -23,6 +23,7 @@
         display: block;
         flex: 1 1 100%;
         text-decoration-line: none;
+        padding: 0;
     }
 
     #menu {
