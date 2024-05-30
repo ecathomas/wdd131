@@ -194,3 +194,5 @@ function createAlbumCard(albums) {
         document.querySelector(".grid").appendChild(card);
 });
 }
+
+
