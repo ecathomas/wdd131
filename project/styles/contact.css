@@ -3,7 +3,6 @@
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: .5rem 2%;
-    width: 100%;
 }
 
 .cf1 legend {
@@ -72,8 +71,9 @@ h1, p {
     .cf1 input[type="email"],
     .cf1 input[type="url"],
     .cf1 input[type="date"],
-    .cf1 input[type="submit"]
-    .cf1 select {
+    .cf1 input[type="submit"],
+    .cf1 select,
+    .cf1 textarea {
         max-width: 500px;
     }
 }
