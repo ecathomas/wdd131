@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.press {
+    border: solid 3px white;
+    padding: .5em;
+    margin: 1em;
+}
+
+p {
+    text-align: center;
+}

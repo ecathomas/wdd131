@@ -3,6 +3,23 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .bill {
+        width: 80%;
+        height: auto;
+        margin-right: auto; 
+        margin-left: auto;   
+  
+    }
+
+    .album {
+        width: 350px;
+        height: auto;
+        margin-right: auto; 
+        margin-left: auto;  
+    }
+
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -29,4 +46,5 @@
     #menu {
         display: none;
     }
+
 }
