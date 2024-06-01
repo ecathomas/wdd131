@@ -67,16 +67,6 @@ ul li a:after {
     font-size: 2em;
 }
 
-.sort::before {
-    content: "";
-    font-size: 2em;
-}
-
-.sort li {
-    display: none;
-    padding: 1em;
-}
-
 main, footer {
     font-family: "Edu NSW ACT Foundation", cursive;
     font-optical-sizing: auto;

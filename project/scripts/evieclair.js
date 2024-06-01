@@ -119,7 +119,7 @@ const albums = [
     },
     {
         albumName: "Results Take Time",
-        releaseDate: "February",
+        releaseDate: "February 2020",
         genre: "Pop",
         top: "y",
         imageUrl: "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/38/f0/7a/38f07ac3-c839-b602-fa1a-10cb9ccbb742/194660694287.jpg/592x592bb.webp",
@@ -168,6 +168,24 @@ const albums = [
 ]
 
 createAlbumCard(albums);
+
+function sortAlbumsByReleaseDate() {
+    // Sort the albums array by release date
+    albums.sort((a, b) => {
+        // Convert releaseDate strings to Date objects for comparison
+        const dateA = new Date(a.releaseDate);
+        const dateB = new Date(b.releaseDate);
+        
+        // Compare dates
+        return dateB - dateA;
+    });
+
+    // Create album cards based on the sorted array
+    createAlbumCard(albums);
+}
+
+// Call the function to sort albums by release date and create album cards
+sortAlbumsByReleaseDate();
 
 
 function createAlbumCard(albums) {
